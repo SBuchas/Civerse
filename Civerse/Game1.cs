@@ -14,6 +14,19 @@ namespace Civerse
         Texture2D texture;
         Vector2 position;
 
+        enum GameState
+        {
+            TitleScreen,
+
+            StartMenu,
+
+            Loading,
+
+            Playing,
+
+            Paused
+        }
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
