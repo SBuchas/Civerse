@@ -1,0 +1,50 @@
+{
+  "species": "Hydrasuar",
+  "description": "Well known for looking like a dinosaur and shoot water at unsuspecting prey.",
+  "primaryType": "water",
+  "secondaryType": null,
+  "health": 100,
+  "speed": 100,
+  "physicalAttack": 100,
+  "physicalResist": 100,
+  "elementalAttack": 114,
+  "elementalResist": 112,
+  "mentalAttack": 100,
+  "mentalResist": 100,
+  "captureResistance": 100,
+  "growthRate": "normal",
+  "moves": [
+    {
+      "move": "growl",
+      "level": 5
+    },
+    {
+      "move": "cry",
+      "level": 0
+    },
+    {
+      "move": "scratch",
+      "level": 3
+    }
+  ],
+  "skills": [
+    "surf",
+    "waterfall",
+    "dive",
+    "cut",
+    "flash"
+  ],
+  "abilities": [
+    "Gills"
+  ],
+  "genders": [
+    {
+      "gender": "Male",
+      "ratio": 1
+    },
+    {
+      "gender": "Female",
+      "ratio": 2
+    }
+  ]
+}
